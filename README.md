@@ -91,6 +91,7 @@ The following components are available as open source:
 |------------|-------------|
 | [Datafication.Core](https://github.com/DataficationSDK/Datafication.Core) | Core runtime with DataBlock, schemas, and streaming I/O |
 | [Datafication.Storage.Velocity](https://github.com/DataficationSDK/Datafication.Storage.Velocity) | High-performance columnar storage engine |
+| [Datafication.Server.Core](https://github.com/DataficationSDK/Datafication.Server.Core) | Server API for exposing DataBlocks as RESTful endpoints |
 | [Datafication.ParquetConnector](https://github.com/DataficationSDK/Datafication.ParquetConnector) | Apache Parquet reading and writing |
 | [Datafication.CsvConnector](https://github.com/DataficationSDK/Datafication.CsvConnector) | CSV import/export with type inference |
 
@@ -103,7 +104,6 @@ Additional capabilities beyond the current public repositories include:
 - **Vector database** for semantic search and similarity operations
 - **ML/AI integration** with ONNX Runtime support for embeddings and inference
 - **Clustering algorithms** (K-Means, DBSCAN) for pattern discovery
-- **Server API** for exposing DataBlocks as RESTful endpoints
 
 These components will be released as separate repositories over time.
 
@@ -133,6 +133,7 @@ dotnet add package Datafication.Core
 ```bash
 dotnet add package Datafication.Core
 dotnet add package Datafication.Storage.Velocity
+dotnet add package Datafication.Server.Core
 dotnet add package Datafication.CsvConnector
 dotnet add package Datafication.ParquetConnector
 ```
