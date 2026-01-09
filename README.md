@@ -112,35 +112,27 @@ These components will be released as separate repositories over time.
 
 ## Getting Started
 
-> **Note**: Datafication is currently in pre-release. NuGet package availability on nuget.org is pending signing certificate approval.
+> **Note**: Datafication is currently in pre-release. The packages are now available on nuget.org.
+
+**Installation:**
+
+```bash
+dotnet add package Datafication.Core --version 1.0.1
+dotnet add package Datafication.Storage.Velocity --version 1.0.1
+dotnet add package Datafication.Server.Core --version 1.0.1
+dotnet add package Datafication.CsvConnector --version 1.0.1
+dotnet add package Datafication.ParquetConnector --version 1.0.1
+dotnet add package Datafication.WebConnector --version 1.0.1
+dotnet add package Datafication.S3Connector --version 1.0.1
+```
 
 **Running the Samples:**
 
-Each repository includes a `samples` directory with pre-built packages and a `NuGet.config` that references them. The sample projects are ready to run as-is:
+Each repository includes a `samples` directory with runnable sample projects:
 
 ```bash
 cd samples/BasicOperations
 dotnet run
-```
-
-**Using the SDK in Your Own Project:**
-
-To use the SDK in your own project, copy the `NuGet.config` and `packages` directory from a repository's `samples` folder into your project directory, then add the package reference:
-
-```bash
-dotnet add package Datafication.Core
-```
-
-**Once Available on NuGet.org:**
-
-```bash
-dotnet add package Datafication.Core
-dotnet add package Datafication.Storage.Velocity
-dotnet add package Datafication.Server.Core
-dotnet add package Datafication.CsvConnector
-dotnet add package Datafication.ParquetConnector
-dotnet add package Datafication.WebConnector
-dotnet add package Datafication.S3Connector
 ```
 
 ## Requirements
