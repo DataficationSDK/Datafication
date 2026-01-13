@@ -117,13 +117,13 @@ These components will be released as separate repositories over time.
 **Installation:**
 
 ```bash
-dotnet add package Datafication.Core --version 1.0.1
-dotnet add package Datafication.Storage.Velocity --version 1.0.1
-dotnet add package Datafication.Server.Core --version 1.0.1
-dotnet add package Datafication.CsvConnector --version 1.0.1
-dotnet add package Datafication.ParquetConnector --version 1.0.1
-dotnet add package Datafication.WebConnector --version 1.0.1
-dotnet add package Datafication.S3Connector --version 1.0.1
+dotnet add package Datafication.Core --version 1.0.2
+dotnet add package Datafication.Storage.Velocity --version 1.0.2
+dotnet add package Datafication.Server.Core --version 1.0.2
+dotnet add package Datafication.CsvConnector --version 1.0.2
+dotnet add package Datafication.ParquetConnector --version 1.0.2
+dotnet add package Datafication.WebConnector --version 1.0.2
+dotnet add package Datafication.S3Connector --version 1.0.2
 ```
 
 **Running the Samples:**
