@@ -95,6 +95,8 @@ The following components have public repositories with documentation and samples
 | [Datafication.Server.Core](https://github.com/DataficationSDK/Datafication.Server.Core) | Server API for exposing DataBlocks as RESTful endpoints |
 | [Datafication.ParquetConnector](https://github.com/DataficationSDK/Datafication.ParquetConnector) | Apache Parquet reading and writing |
 | [Datafication.CsvConnector](https://github.com/DataficationSDK/Datafication.CsvConnector) | CSV import/export with type inference |
+| [Datafication.ExcelConnector](https://github.com/DataficationSDK/Datafication.ExcelConnector) | Excel (.xlsx/.xls) reading and writing |
+| [Datafication.JsonConnector](https://github.com/DataficationSDK/Datafication.JsonConnector) | JSON file and API data loading |
 | [Datafication.WebConnector](https://github.com/DataficationSDK/Datafication.WebConnector) | Web scraping with HTML tables, CSS selectors, and browser rendering |
 | [Datafication.S3Connector](https://github.com/DataficationSDK/Datafication.S3Connector) | Amazon S3 and S3-compatible storage access |
 
@@ -114,16 +116,20 @@ These components will be released as separate repositories over time.
 
 > **Note**: Datafication is currently in pre-release. The packages are now available on nuget.org.
 
+For detailed class and method documentation, see the [API Reference](https://datafication.co/help/api/index.html).
+
 **Installation:**
 
 ```bash
-dotnet add package Datafication.Core --version 1.0.8
-dotnet add package Datafication.Storage.Velocity --version 1.0.8
-dotnet add package Datafication.Server.Core --version 1.0.8
-dotnet add package Datafication.CsvConnector --version 1.0.8
-dotnet add package Datafication.ParquetConnector --version 1.0.8
-dotnet add package Datafication.WebConnector --version 1.0.8
-dotnet add package Datafication.S3Connector --version 1.0.8
+dotnet add package Datafication.Core --version 1.0.9
+dotnet add package Datafication.Storage.Velocity --version 1.0.9
+dotnet add package Datafication.Server.Core --version 1.0.9
+dotnet add package Datafication.CsvConnector --version 1.0.9
+dotnet add package Datafication.ExcelConnector --version 1.0.9
+dotnet add package Datafication.JsonConnector --version 1.0.9
+dotnet add package Datafication.ParquetConnector --version 1.0.9
+dotnet add package Datafication.WebConnector --version 1.0.9
+dotnet add package Datafication.S3Connector --version 1.0.9
 ```
 
 **Running the Samples:**
