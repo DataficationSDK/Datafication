@@ -121,15 +121,15 @@ For detailed class and method documentation, see the [API Reference](https://dat
 **Installation:**
 
 ```bash
-dotnet add package Datafication.Core --version 1.0.9
-dotnet add package Datafication.Storage.Velocity --version 1.0.9
-dotnet add package Datafication.Server.Core --version 1.0.9
-dotnet add package Datafication.CsvConnector --version 1.0.9
-dotnet add package Datafication.ExcelConnector --version 1.0.9
-dotnet add package Datafication.JsonConnector --version 1.0.9
-dotnet add package Datafication.ParquetConnector --version 1.0.9
-dotnet add package Datafication.WebConnector --version 1.0.9
-dotnet add package Datafication.S3Connector --version 1.0.9
+dotnet add package Datafication.Core
+dotnet add package Datafication.Storage.Velocity
+dotnet add package Datafication.Server.Core
+dotnet add package Datafication.CsvConnector
+dotnet add package Datafication.ExcelConnector
+dotnet add package Datafication.JsonConnector
+dotnet add package Datafication.ParquetConnector
+dotnet add package Datafication.WebConnector
+dotnet add package Datafication.S3Connector
 ```
 
 **Running the Samples:**
