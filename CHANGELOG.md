@@ -5,6 +5,19 @@ All notable changes to the Datafication SDK will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.11] - 2026-02-01
+
+### Fixed
+
+#### Datafication.Storage.Velocity
+
+- **Critical: GroupBy and Pivot on multi-segment DFC files now return correct results.** Previously, when data spanned multiple DFC segments (created via multiple `AppendAsync()` calls or large datasets exceeding segment size limits), string column values could be incorrectly resolved. Each segment has its own string table where IDs start from 1, so the same ID in different segments referred to different strings. GroupBy and Pivot operations incorrectly used only the first segment's string table for all ID resolution, causing:
+  - Incorrect group counts (e.g., 16 groups instead of 10 for a column with 10 unique values)
+  - Wrong string values in results (e.g., country names replaced with product IDs)
+  - Data from later segments being attributed to wrong categories
+
+  The fix introduces a global string table that unifies string resolution across segments, ensuring the same string always maps to the same group regardless of which segment it appears in. Single-segment files are unaffected and retain their performance.
+
 ## [1.0.10] - 2026-01-31
 
 ### Performance
