@@ -1,0 +1,31 @@
+ProductId;Name;Category;Price;InStock;Supplier
+P001;Laptop Pro 15;Electronics;1299.99;true;TechCorp
+P002;Wireless Mouse;Accessories;29.99;true;GadgetWorld
+P003;USB-C Hub 7-Port;Accessories;49.99;false;TechCorp
+P004;Mechanical Keyboard;Accessories;149.99;true;KeyMaster
+P005;27" 4K Monitor;Electronics;449.99;true;DisplayTech
+P006;Webcam HD 1080p;Electronics;79.99;true;StreamGear
+P007;Noise Canceling Headphones;Audio;299.99;true;SoundPro
+P008;External SSD 1TB;Storage;129.99;true;DataSafe
+P009;Wireless Charger;Accessories;34.99;true;PowerUp
+P010;Smart Watch Pro;Wearables;399.99;false;TechCorp
+P011;Bluetooth Speaker;Audio;89.99;true;SoundPro
+P012;Tablet Stand;Accessories;24.99;true;GadgetWorld
+P013;Graphics Card RTX;Electronics;799.99;false;GameTech
+P014;RAM 32GB Kit;Components;159.99;true;MemoryMax
+P015;Power Supply 750W;Components;109.99;true;PowerUp
+P016;CPU Cooler;Components;69.99;true;CoolTech
+P017;Gaming Mouse;Accessories;79.99;true;GameTech
+P018;Desk Lamp LED;Office;44.99;true;LightCo
+P019;Cable Management Kit;Accessories;19.99;true;OrganizerPro
+P020;Laptop Bag;Accessories;59.99;true;TravelGear
+P021;HDMI Cable 2m;Cables;14.99;true;CableCo
+P022;USB Flash Drive 64GB;Storage;12.99;true;DataSafe
+P023;Portable Monitor 15";Electronics;249.99;true;DisplayTech
+P024;Ergonomic Chair;Furniture;549.99;false;ComfortZone
+P025;Standing Desk;Furniture;699.99;true;ComfortZone
+P026;Monitor Arm;Accessories;89.99;true;OrganizerPro
+P027;Wireless Earbuds;Audio;149.99;true;SoundPro
+P028;Docking Station;Electronics;199.99;true;TechCorp
+P029;Screen Protector;Accessories;9.99;true;ProtectIt
+P030;Microphone USB;Audio;129.99;true;StreamGear

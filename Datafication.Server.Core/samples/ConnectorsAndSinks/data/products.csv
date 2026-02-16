@@ -1,0 +1,11 @@
+ProductId,ProductName,Category,Price,InStock
+1,Laptop Pro,Electronics,1299.99,true
+2,Wireless Mouse,Electronics,29.99,true
+3,Mechanical Keyboard,Electronics,149.99,true
+4,Office Chair,Furniture,349.99,true
+5,Standing Desk,Furniture,599.99,false
+6,Monitor 27",Electronics,399.99,true
+7,Webcam HD,Electronics,79.99,true
+8,Desk Lamp,Furniture,49.99,true
+9,USB Hub,Electronics,24.99,true
+10,Filing Cabinet,Furniture,199.99,false

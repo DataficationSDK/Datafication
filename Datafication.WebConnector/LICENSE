@@ -1,0 +1,210 @@
+# Datafication SDK License Agreement
+
+*Last Updated: December 26th, 2025*
+
+This Datafication SDK License Agreement (“Agreement”) is a legally binding agreement between you (“Licensee,” “you”) and **Datafication LLC** (“Licensor,” “Datafication”). By installing, accessing, or using the Datafication SDK, you agree to be bound by the terms of this Agreement.
+
+If you do not agree to this Agreement, do not install, access, or use the SDK.
+
+---
+
+## 1. Definitions
+
+* **“SDK”** means the Datafication software development kit, including binaries, libraries, tools, and accompanying documentation.
+* **"Developer"** means any employee or contractor of the Organization who develops software using or integrating the SDK. Automated systems or agents are explicitly excluded from this definition.
+* **“Licensee”** means the individual or legal entity exercising rights under this Agreement.
+* **“Organization”** means the legal entity using the SDK.
+* **“Revenue”** means gross, company-wide revenue of the Organization, measured in United States Dollars (USD).
+* **“Commercial Use”** means use of the SDK by an Organization that exceeds the Free Use eligibility thresholds defined in this Agreement.
+* **“Free Use”** means use of the SDK without payment, subject to the eligibility requirements in Section 3.
+* **“Application”** means a software product developed by Licensee that incorporates the SDK in compiled or object code form.
+
+---
+
+## 2. License Grant
+
+Subject to the terms of this Agreement, Datafication grants Licensee a limited, non-exclusive, non-transferable, non-sublicensable, and revocable license to install and use the SDK solely for developing Applications in accordance with this Agreement.
+
+No rights are granted except as expressly stated herein.
+
+---
+
+## 3. Free Use Eligibility
+
+Licensee may use the SDK without purchasing a commercial license **only if all of the following conditions are continuously met**:
+
+1. Fewer than five (5) Developers develop software using the SDK; and
+2. The Organization's gross annual Revenue does not exceed five hundred thousand United States Dollars ($500,000 USD), measured on a calendar-year basis.
+
+If Licensee ceases to meet **any** of the above conditions, Licensee must immediately obtain a commercial license to continue using the SDK.
+
+### Open Source Exemption
+
+Open source projects are exempt from developer count limits under Section 3(1), provided:
+
+1. Total funding received by the project (including sponsorships, investments, grants, and donations) does not exceed five hundred thousand United States Dollars ($500,000 USD) annually; and
+2. The project does not compete with or replicate the core functionality of the SDK.
+
+This exemption does not modify any other terms of this Agreement, including the prohibitions in Section 6.
+
+Exemption status is evaluated based on the project's own funding and purpose. Downstream commercial use of an exempt open source project does not affect the project's exemption status.
+
+### Downstream Use
+
+Use of any software that incorporates the SDK for development purposes—including integration into applications, use as a development dependency, or incorporation into software products—constitutes use of the SDK for purposes of this Agreement. This includes use of libraries or tools that internally depend on the SDK, regardless of whether the Licensee directly interfaces with SDK APIs.
+
+Organizations whose Developers use or integrate such software must evaluate their own eligibility under Section 3, based on their own Developer count and Revenue.
+
+End users of compiled applications are not subject to this provision.
+
+**Safe Harbor for Unaware Downstream Users.** Organizations that unknowingly incorporate the SDK through third-party dependencies shall have thirty (30) days from written notice by Datafication to evaluate eligibility and come into compliance. This grace period applies only to good-faith unaware usage discovered through dependency chains and does not apply to Organizations that had actual knowledge of the SDK's inclusion.
+
+---
+
+## 4. Commercial License Requirement
+
+A commercial license is required if **either** of the following conditions is met:
+
+* Five (5) or more Developers develop software using the SDK; or
+* The Organization's gross annual Revenue exceeds $500,000 USD.
+
+Commercial licenses are available from Datafication LLC and may be offered on a per-developer or per-organization basis. Commercial licenses are annual subscriptions unless otherwise agreed in writing.
+
+Failure to obtain a required commercial license constitutes a material breach of this Agreement.
+
+---
+
+## 5. Permitted Uses
+
+Subject to compliance with this Agreement, Licensee may:
+
+* Develop Applications using the SDK;
+* Use the SDK for internal tools, SaaS offerings, hosted services, and on-premises software;
+* Distribute Applications that include the SDK in compiled or object code form.
+
+---
+
+## 6. Prohibited Uses
+
+Licensee shall not, and shall not permit others to:
+
+* Reverse engineer, decompile, disassemble, or attempt to derive the source code of the SDK;
+* Redistribute, sublicense, rent, lease, or make the SDK available as a standalone product;
+* Circumvent or disable licensing restrictions;
+* Use the SDK to develop or assist in the development of a competing SDK or framework;
+* Use the SDK in violation of applicable laws or regulations.
+
+---
+
+## 7. Ownership and Intellectual Property
+
+The SDK is proprietary software. Datafication retains all right, title, and interest in and to the SDK, including all intellectual property rights.
+
+No ownership rights are transferred under this Agreement. All rights not expressly granted are reserved by Datafication.
+
+Sample source code that Datafication may publish separately is not part of the SDK and may be used under its accompanying terms.
+
+---
+
+## 8. Compliance Verification
+
+Datafication may reasonably request written certification from Licensee confirming compliance with this Agreement, including Developer counts and Revenue thresholds.
+
+---
+
+## 9. Fees and Payment
+
+Commercial license fees, payment terms, and applicable taxes are as specified at the time of purchase or in a separate written agreement.
+
+All fees are non-refundable unless otherwise required by law.
+
+---
+
+## 10. Updates, Support, and Maintenance
+
+* Free Use licenses include community support only.
+* Commercial licenses include priority email support, guaranteed updates, and advance notice of breaking changes during the active subscription term.
+
+Datafication has no obligation to provide updates or support after a license expires or is terminated.
+
+---
+
+## 11. Term and Termination
+
+This Agreement is effective upon first use of the SDK and continues until terminated.
+
+Datafication may terminate this Agreement immediately if Licensee breaches this Agreement, including failure to obtain a required commercial license.
+
+Upon termination, Licensee must immediately cease all use of the SDK, delete all copies, and certify deletion upon request.
+
+---
+
+## 12. Confidentiality
+
+The SDK and any non-public documentation constitute confidential information. Licensee shall not disclose such information without Datafication’s prior written consent.
+
+---
+
+## 13. Warranty Disclaimer
+
+THE SDK IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND. DATAFICATION DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+---
+
+## 14. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, DATAFICATION SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES.
+
+DATAFICATION’S TOTAL LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE FEES PAID BY LICENSEE TO DATAFICATION IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+---
+
+## 15. Indemnification
+
+Licensee agrees to indemnify, defend, and hold harmless Datafication from any claims, damages, liabilities, and expenses arising from Licensee’s use of the SDK, Applications developed using the SDK, or violation of this Agreement.
+
+---
+
+## 16. Compliance with Laws
+
+Licensee agrees to comply with all applicable laws and regulations, including export control laws.
+
+---
+
+## 17. Governing Law and Venue
+
+This Agreement is governed by the laws of the Commonwealth of Pennsylvania, USA, without regard to conflict-of-law principles. Any legal action shall be brought exclusively in the state or federal courts located in Pennsylvania.
+
+---
+
+## 18. Assignment
+
+Licensee may not assign or transfer this Agreement without Datafication’s prior written consent. Any unauthorized assignment is void.
+
+---
+
+## 19. Marketing and Attribution
+
+Licensee may reference use of the SDK with the phrase “Powered by Datafication,” but is under no obligation to do so.
+
+Datafication may list Licensee as a customer unless Licensee provides written notice requesting opt-out.
+
+---
+
+## 20. Amendments
+
+Datafication may modify this Agreement from time to time. Continued use of the SDK constitutes acceptance of the then-current version of the Agreement.
+
+---
+
+## 21. Entire Agreement; Severability; Waiver
+
+This Agreement constitutes the entire agreement between the parties. If any provision is held unenforceable, the remaining provisions shall remain in effect. Failure to enforce any provision is not a waiver.
+
+---
+
+## 22. Contact Information
+
+**Datafication LLC**
+support@datafication.co
+https://datafication.co

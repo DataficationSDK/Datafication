@@ -1,0 +1,7 @@
+[
+  {"Id": 1, "Name": "Valid Record", "Status": "OK"},
+  {"Id": 2, "Name": "Missing closing quote, "Status": "Error"},
+  {"Id": 3, Name: "Missing quotes on key", "Status": "Error"},
+  {"Id": 4, "Name": "Valid Again", "Status": "OK"}
+  {"Id": 5, "Name": "Missing comma above", "Status": "Error"}
+]

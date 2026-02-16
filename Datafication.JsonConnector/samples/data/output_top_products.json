@@ -1,0 +1,42 @@
+[
+  {
+    "ProductId": "PRD013",
+    "TotalSales": 149379.34000000003
+  },
+  {
+    "ProductId": "PRD028",
+    "TotalSales": 148996.22
+  },
+  {
+    "ProductId": "PRD025",
+    "TotalSales": 146121.73
+  },
+  {
+    "ProductId": "PRD021",
+    "TotalSales": 140041.08
+  },
+  {
+    "ProductId": "PRD019",
+    "TotalSales": 130166.45000000001
+  },
+  {
+    "ProductId": "PRD006",
+    "TotalSales": 128102.17000000001
+  },
+  {
+    "ProductId": "PRD024",
+    "TotalSales": 126228.37
+  },
+  {
+    "ProductId": "PRD005",
+    "TotalSales": 125612.18999999996
+  },
+  {
+    "ProductId": "PRD020",
+    "TotalSales": 121301.39
+  },
+  {
+    "ProductId": "PRD022",
+    "TotalSales": 120380.98
+  }
+]

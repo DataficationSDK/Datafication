@@ -1,0 +1,10 @@
+[
+  {"orderId": 1001, "customerId": 1, "productId": 1, "quantity": 1, "orderDate": "2024-01-15"},
+  {"orderId": 1002, "customerId": 2, "productId": 3, "quantity": 2, "orderDate": "2024-01-16"},
+  {"orderId": 1003, "customerId": 1, "productId": 6, "quantity": 2, "orderDate": "2024-01-17"},
+  {"orderId": 1004, "customerId": 3, "productId": 4, "quantity": 1, "orderDate": "2024-01-18"},
+  {"orderId": 1005, "customerId": 2, "productId": 2, "quantity": 3, "orderDate": "2024-01-19"},
+  {"orderId": 1006, "customerId": 4, "productId": 7, "quantity": 1, "orderDate": "2024-01-20"},
+  {"orderId": 1007, "customerId": 1, "productId": 9, "quantity": 2, "orderDate": "2024-01-21"},
+  {"orderId": 1008, "customerId": 3, "productId": 8, "quantity": 4, "orderDate": "2024-01-22"}
+]

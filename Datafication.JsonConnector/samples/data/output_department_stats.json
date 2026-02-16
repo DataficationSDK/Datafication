@@ -1,0 +1,22 @@
+[
+  {
+    "Department": "Engineering",
+    "HeadCount": 18.0
+  },
+  {
+    "Department": "Finance",
+    "HeadCount": 7.0
+  },
+  {
+    "Department": "HR",
+    "HeadCount": 7.0
+  },
+  {
+    "Department": "Marketing",
+    "HeadCount": 9.0
+  },
+  {
+    "Department": "Sales",
+    "HeadCount": 9.0
+  }
+]

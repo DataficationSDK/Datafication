@@ -90,15 +90,15 @@ The following components have public repositories with documentation and samples
 
 | Repository | Description |
 |------------|-------------|
-| [Datafication.Core](https://github.com/DataficationSDK/Datafication.Core) | Core runtime with DataBlock, schemas, and streaming I/O |
-| [Datafication.Storage.Velocity](https://github.com/DataficationSDK/Datafication.Storage.Velocity) | High-performance columnar storage engine |
-| [Datafication.Server.Core](https://github.com/DataficationSDK/Datafication.Server.Core) | Server API for exposing DataBlocks as RESTful endpoints |
-| [Datafication.ParquetConnector](https://github.com/DataficationSDK/Datafication.ParquetConnector) | Apache Parquet reading and writing |
-| [Datafication.CsvConnector](https://github.com/DataficationSDK/Datafication.CsvConnector) | CSV import/export with type inference |
-| [Datafication.ExcelConnector](https://github.com/DataficationSDK/Datafication.ExcelConnector) | Excel (.xlsx/.xls) reading and writing |
-| [Datafication.JsonConnector](https://github.com/DataficationSDK/Datafication.JsonConnector) | JSON file and API data loading |
-| [Datafication.WebConnector](https://github.com/DataficationSDK/Datafication.WebConnector) | Web scraping with HTML tables, CSS selectors, and browser rendering |
-| [Datafication.S3Connector](https://github.com/DataficationSDK/Datafication.S3Connector) | Amazon S3 and S3-compatible storage access |
+| [Datafication.Core](Datafication.Core/README.md) | Core runtime with DataBlock, schemas, and streaming I/O |
+| [Datafication.Storage.Velocity](Datafication.Storage.Velocity/README.md) | High-performance columnar storage engine |
+| [Datafication.Server.Core](Datafication.Server.Core/README.md) | Server API for exposing DataBlocks as RESTful endpoints |
+| [Datafication.ParquetConnector](Datafication.ParquetConnector/README.md) | Apache Parquet reading and writing |
+| [Datafication.CsvConnector](Datafication.CsvConnector/README.md) | CSV import/export with type inference |
+| [Datafication.ExcelConnector](Datafication.ExcelConnector/README.md) | Excel (.xlsx/.xls) reading and writing |
+| [Datafication.JsonConnector](Datafication.JsonConnector/README.md) | JSON file and API data loading |
+| [Datafication.WebConnector](Datafication.WebConnector/README.md) | Web scraping with HTML tables, CSS selectors, and browser rendering |
+| [Datafication.S3Connector](Datafication.S3Connector/README.md) | Amazon S3 and S3-compatible storage access |
 
 ## Beyond the Public Repos
 

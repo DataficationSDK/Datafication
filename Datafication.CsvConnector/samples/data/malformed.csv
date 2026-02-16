@@ -1,0 +1,12 @@
+Id,Name,Value,Date
+1,Valid Row,100,2024-01-15
+2,Missing Value,,2024-01-16
+3,"Quoted, with comma",200,2024-01-17
+4,Unbalanced "Quote,300,2024-01-18
+5,Normal Row,400,2024-01-19
+6,Extra,Fields,Here,Too,Many,2024-01-20
+7,Valid Again,500,2024-01-21
+8,Tab	Character,600,2024-01-22
+9,Special Chars: @#$%,700,2024-01-23
+10,"Multi
+Line",800,2024-01-24

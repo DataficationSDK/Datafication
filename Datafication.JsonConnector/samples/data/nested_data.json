@@ -1,0 +1,59 @@
+{
+  "company": "TechCorp Industries",
+  "founded": 2010,
+  "headquarters": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "USA",
+    "address": {
+      "street": "123 Innovation Way",
+      "zipCode": "94105"
+    }
+  },
+  "departments": [
+    {
+      "name": "Engineering",
+      "headCount": 150,
+      "budget": 5000000,
+      "manager": {
+        "name": "Sarah Tech",
+        "title": "VP of Engineering",
+        "email": "sarah.tech@techcorp.com"
+      },
+      "teams": ["Backend", "Frontend", "DevOps", "QA"]
+    },
+    {
+      "name": "Marketing",
+      "headCount": 45,
+      "budget": 2000000,
+      "manager": {
+        "name": "Mike Brand",
+        "title": "VP of Marketing",
+        "email": "mike.brand@techcorp.com"
+      },
+      "teams": ["Digital", "Content", "Events"]
+    },
+    {
+      "name": "Sales",
+      "headCount": 80,
+      "budget": 3000000,
+      "manager": {
+        "name": "Lisa Deal",
+        "title": "VP of Sales",
+        "email": "lisa.deal@techcorp.com"
+      },
+      "teams": ["Enterprise", "SMB", "Channel Partners"]
+    }
+  ],
+  "products": [
+    {"id": "P001", "name": "DataSync Pro", "price": 999.99, "active": true},
+    {"id": "P002", "name": "CloudManager", "price": 499.99, "active": true},
+    {"id": "P003", "name": "Legacy Tool", "price": 199.99, "active": false}
+  ],
+  "metrics": {
+    "annualRevenue": 50000000,
+    "employees": 350,
+    "customerCount": 5000,
+    "yearOverYearGrowth": 0.25
+  }
+}
