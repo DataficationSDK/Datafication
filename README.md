@@ -86,9 +86,9 @@ Console.WriteLine(result.ToTextTable());
 
 ## Public Repositories
 
-The following components have public repositories with documentation and samples:
+The following components have documentation and samples:
 
-| Repository | Description |
+| Library | Description |
 |------------|-------------|
 | [Datafication.Core](Datafication.Core/README.md) | Core runtime with DataBlock, schemas, and streaming I/O |
 | [Datafication.Storage.Velocity](Datafication.Storage.Velocity/README.md) | High-performance columnar storage engine |
